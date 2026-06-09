@@ -2,7 +2,7 @@ import tkinter as tk
 
 # Есептеу функциясы
 def esepteu():
-    
+
     try:
         san = float(entry.get())
 
@@ -43,3 +43,5 @@ result_label.pack(pady=10)
 
 # Бағдарламаны іске қосу
 window.mainloop()
+
+#dffjhfgjghjkhkgh
