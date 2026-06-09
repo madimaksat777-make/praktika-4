@@ -2,6 +2,7 @@ import tkinter as tk
 
 # Есептеу функциясы
 def esepteu():
+    
     try:
         san = float(entry.get())
 
