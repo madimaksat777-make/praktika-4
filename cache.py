@@ -14,14 +14,4 @@ r = redis.Redis(
 )
 
 
-def get_cache(key):
-    data = r.get(key)
-
-    if data:
-        return data.decode()
-
-    return None
-
-
-def set_cache(key, value):
-    r.setex(key, CACHE_TTL, value)
+def ge
